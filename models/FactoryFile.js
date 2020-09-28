@@ -8,7 +8,7 @@ const kindOfFile = {
     VIDEO_FILE: 'videoFile',
     PHOTO_FILE: 'photoFile'
 }
-const STATE_VU = '1';
+const STATE_VU = 'seen';
 
 const stateDecorator = (file, state) => {
     file.state = state;

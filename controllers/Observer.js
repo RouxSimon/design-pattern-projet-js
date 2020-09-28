@@ -45,7 +45,7 @@ class Observer {
                 }
             break;
             case 'c':
-                console.log(`Here is ${myFiles.length} files right now !`);
+                console.log(`There are ${myFiles.length} files right now !`);
             break;
             case 'e':
                 console.log(`You have already seen ${this.viewedFilesNumber} differents files !`);
